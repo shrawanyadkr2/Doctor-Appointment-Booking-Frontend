@@ -59,7 +59,7 @@ const About = () => {
             >
               <div className="absolute -inset-2 bg-gradient-to-r from-emerald-500 to-sky-500 rounded-3xl blur opacity-20 group-hover:opacity-30 transition duration-500"></div>
               <img
-                src="public/aboutImg1.webp"
+                src="https://i.ibb.co/mCn6T4Xm/Screenshot-2025-09-17-170127.png"
                 alt="Doctors at work"
                 className="rounded-2xl shadow-xl relative"
               />
