@@ -23,7 +23,7 @@ const Footer = () => {
     <footer className="relative bg-gradient-to-b from-emerald-50 to-sky-100 text-gray-800">
       {/* Decorative top border */}
       <div className="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-emerald-500 via-sky-500 to-emerald-500"></div>
-      
+
       <div className="max-w-7xl mx-auto px-6 pt-16 pb-8">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
           {/* Brand Section */}
@@ -46,9 +46,14 @@ const Footer = () => {
                 <FaHeartbeat />
               </motion.div>
               <h2 className="text-3xl font-bold">
-                <span className="bg-gradient-to-r from-emerald-600 to-sky-600 bg-clip-text text-transparent">
+                <a
+                  href="https://doctor-appointment-booking-frontend-six.vercel.app/"
+                  
+                  rel="noopener noreferrer"
+                  className="bg-gradient-to-r from-emerald-600 to-sky-600 bg-clip-text text-transparent cursor-pointer"
+                >
                   DOCBOOK
-                </span>
+                </a>
               </h2>
             </motion.div>
             <p className="text-gray-600">
@@ -105,16 +110,18 @@ const Footer = () => {
               <motion.a
                 whileHover={{ scale: 1.2, rotate: 10 }}
                 whileTap={{ scale: 0.9 }}
-                href="#"
+                href="https://www.instagram.com/shrawan.k_6299/?hl=en"
                 className="bg-gradient-to-r from-emerald-500 to-sky-500 p-3 rounded-full text-white hover:shadow-lg transition-shadow"
+                target="_blank"
               >
                 <FaInstagram size={20} />
               </motion.a>
               <motion.a
                 whileHover={{ scale: 1.2, rotate: -10 }}
                 whileTap={{ scale: 0.9 }}
-                href="#"
+                href="https://www.linkedin.com/in/shrawan-kumar-yadav-009008281/"
                 className="bg-gradient-to-r from-emerald-500 to-sky-500 p-3 rounded-full text-white hover:shadow-lg transition-shadow"
+                target="_blank"
               >
                 <FaLinkedinIn size={20} />
               </motion.a>
