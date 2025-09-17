@@ -146,7 +146,7 @@ const Footer = () => {
               </motion.span>{" "}
               by{" "}
               <span className="bg-gradient-to-r from-emerald-600 to-sky-600 bg-clip-text text-transparent font-semibold">
-                Dharamraj
+                Shrawan Yadav
               </span>
             </motion.p>
           </div>
