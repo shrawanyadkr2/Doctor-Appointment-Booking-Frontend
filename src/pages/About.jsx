@@ -227,7 +227,7 @@ const About = () => {
             >
               <div className="absolute -inset-2 bg-gradient-to-r from-emerald-500 to-sky-500 rounded-3xl blur opacity-20 group-hover:opacity-30 transition duration-500"></div>
               <img
-                src="public/Developer.png"
+                src="https://i.ibb.co/B25sMqdx/Screenshot-2025-09-17-163520.png"
                 alt="Developer profile"
                 className="rounded-2xl shadow-xl w-full object-cover relative"
               />
