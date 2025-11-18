@@ -1,6 +1,8 @@
 
 # 🩺 DOCBOOK – Doctor Appointment Web App
 
+![Architecture Diagram](Flow.png)
+
 **DOCBOOK** is a simple and easy-to-use web application built with the **MERN Stack** (MongoDB, Express.js, React, Node.js). It allows doctors to manage their availability and patients to book appointments online.
 
 🎥 **Demo Video**: [Watch on Loom](https://www.loom.com/share/82ed6c376f084c19a38d0e09e71bc2aa?sid=99b8090a-cf23-480d-84a0-1cfa4ec968a4)
