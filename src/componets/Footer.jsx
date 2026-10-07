@@ -110,7 +110,7 @@ const Footer = () => {
               <motion.a
                 whileHover={{ scale: 1.2, rotate: 10 }}
                 whileTap={{ scale: 0.9 }}
-                href="https://www.instagram.com/shrawan.k_6299/?hl=en"
+                href=""
                 className="bg-gradient-to-r from-emerald-500 to-sky-500 p-3 rounded-full text-white hover:shadow-lg transition-shadow"
                 target="_blank"
               >
@@ -119,7 +119,7 @@ const Footer = () => {
               <motion.a
                 whileHover={{ scale: 1.2, rotate: -10 }}
                 whileTap={{ scale: 0.9 }}
-                href="https://www.linkedin.com/in/shrawan-kumar-yadav-009008281/"
+                href=""
                 className="bg-gradient-to-r from-emerald-500 to-sky-500 p-3 rounded-full text-white hover:shadow-lg transition-shadow"
                 target="_blank"
               >
@@ -153,7 +153,7 @@ const Footer = () => {
               </motion.span>{" "}
               by{" "}
               <span className="bg-gradient-to-r from-emerald-600 to-sky-600 bg-clip-text text-transparent font-semibold">
-                Shrawan Yadav
+                Ashish Kumar Yadav
               </span>
             </motion.p>
           </div>
